@@ -1,0 +1,12 @@
+---
+question: |
+ This is an introduction to the world.   What is your name?
+subquestion: |
+ >It's not a very good world but it's the only one we've got.
+fields: 
+ - no label: username
+---
+mandatory: True
+question: Interview Complete
+subquestion: |
+  Thanks, ${username}.
